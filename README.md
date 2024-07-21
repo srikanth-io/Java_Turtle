@@ -32,13 +32,13 @@
         Datatype VariableName = Value;
 
 
-## **Local Variable**
+### **Local Variable**
     Local Variables are declared inside the body of the method. only accessed by the method
 
-## **Instance Variable**
+### **Instance Variable**
     Instance Variable are defined without static keyword, and it declare outside of the method.
 
-## **Gloabal Variable**
+### **Gloabal Variable**
     Global Variables are declared inside of the class and outside of the method. It can be accessed by any methods within the class
 
 ## **Constant**
@@ -91,6 +91,16 @@
     Converting the one datatype value into another datatype 
         Syntax: -
             Datatype VariableName = (TypeOfData)Value;
+
+        -Widening (converting smaller datatype into larger datatype) - automatic conversion
+                int num1 = 20;
+                double value = num1;
+                System.out.println(num1);
+
+        -Narrowing (Converting Larger datatype into smaller datatype) - Manual conversion
+                double num1 = 20.87;
+                int value =   (int) num1;
+                System.out.println(num1);
 
 
 ## **Operators: -**
@@ -179,3 +189,40 @@
             for(variable type: array){
                 statement(s);
             }
+
+## **String**
+    String Object usually stores the text that are enclosed with double quotes.
+        Syntax: -
+            String Name = "Srikanth Sankar"
+
+### **String Length**
+    - length() method is used to find the length of the string.
+        Syntax: -
+            String Name = "Srikanth Sankar"
+            System.out.println("Name.length()");
+
+### **String Uppercase and Lowercase**
+    - toUpperCase() method is used to convert the string to uppercase.
+        Syntax: -
+            System.out.println(Name.toUpperCase());
+
+    -toLowerCase() method is used to convert the string to lowercase.
+        Syntax: -
+            System.out.println(Name.toLowerCase());
+
+### **Finding Characters in String**
+    indexOf() method used to find the index position of the String or value 
+        Syntax: -
+            System.out.println(indexOf(r));
+
+
+## **Arrays**
+    Arrays is a group of homogeneous data in one single variable and it is called by using index position
+        - index position starts with 0.
+    
+    Array Declaration: - 
+        syntax: -
+            ArrayType[] VariableName = ArrayValue[]
+
+        -one Dimentional Array
+
