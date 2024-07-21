@@ -100,6 +100,7 @@
         - Relational operator (==,!=,<=,>=)
         - Logical Operator (AND (&&), OR (||), XOR (^))
         - Increment and Decrement Operator (++(Preincrement, Postincrement), --(predecrement, Postdecrement) )
-        - Bitwise Operator (&, |, ^)
-        - Conditional Operator (condition1 ? expression2 : expression3)
+        - Bitwise Operator (&, |, ^) - perform operations on Binary representation numbers or they work individual bit 
+        - Conditional or Ternary Operator (condition1 ? expression2 : expression3)
+    
         

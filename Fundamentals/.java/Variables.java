@@ -9,7 +9,7 @@ public class Variables {
         //variable Utlization
         int b = 20;
 
-        System.out.println(a=10);
+        System.out.println(a = 10);
         System.out.println(b);
     }   
 }
