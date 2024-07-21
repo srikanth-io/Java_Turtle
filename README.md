@@ -31,10 +31,26 @@
         Syntax : -
         Datatype VariableName = Value;
 
+
+## **Local Variable**
+    Local Variables are declared inside the body of the method. only accessed by the method
+
+## **Instance Variable**
+    Instance Variable are defined without static keyword, and it declare outside of the method.
+
+## **Gloabal Variable**
+    Global Variables are declared inside of the class and outside of the method. It can be accessed by any methods within the class
+
+## **Constant**
+    Constant is a variable whose value can't change once and it be assigned
+    - java doesn't have built in support
+    - for alternate we use " final " keyword. 
+
 ## **DataTypes: -**
 
-Datatypes tells what type of data can be stored in the variable
+    Datatypes tells what type of data can be stored in the variable
 
+    Primitive Datatype
 
 | Datatypes | Bits | Bytes | uses       |
 | --------- | ---- | ----- | ---------- |
@@ -47,6 +63,7 @@ Datatypes tells what type of data can be stored in the variable
 | char      | 16   | 2     | ' k '      |
 | boolean   | 8    | 1     | true/false |
 
+    Reference Datatype -> String, Array, Enum 
 
 ## **Println, Print and Printf: -**
     **Println**
@@ -84,4 +101,5 @@ Datatypes tells what type of data can be stored in the variable
         - Logical Operator (AND (&&), OR (||), XOR (^))
         - Increment and Decrement Operator (++(Preincrement, Postincrement), --(predecrement, Postdecrement) )
         - Bitwise Operator (&, |, ^)
+        - Conditional Operator (condition1 ? expression2 : expression3)
         
