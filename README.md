@@ -104,3 +104,78 @@
         - Conditional or Ternary Operator (condition1 ? expression2 : expression3)
     
         
+## **Conditional Statements**
+    Conditional statement allows to perform tasks based on certain conditions
+       -if
+            syntax: -
+                 if(condition){
+                    statement(s);    
+                 }
+        
+        -if-else
+            syntax: -
+                if(condition){
+                    statement(s);
+                }else{
+                    execution;
+                }
+
+        -nestedif
+            syntax: -
+                if(condition1){
+                    if(condition2){
+                        statement(s);
+                    }
+                }else{
+                    execution;
+                }    
+        -if-elseif
+            syntax: -
+                if(condition1){
+                    statement(S);
+                }elseif(condition2){
+                    statement(S);
+                }else{
+                    execution;
+                }
+
+        -switch (variable / expression){
+            case value1:
+                statement(s);
+                break;     
+            case value2:
+                statement(S);
+                break;
+            default:
+                execution(deafult value);   
+        }
+
+
+## **Looping / Iteration Statement**
+    whenever we need to perform condition again and again
+        
+        -for loop
+        syntax: -
+            for (intialization; condition; iteration){
+                execution statement;
+            }
+            
+        -while loop
+        syntax: -
+            while (condition){
+                execution block;
+            }
+
+        -do-while loop - first do the instuction after checking conditions
+        syntax: - 
+            do{
+                set of instruction
+            }while(condition){
+                execution;
+        }
+
+        -for-each loop -- same has for loop but its for array concept
+        syntax: -
+            for(variable type: array){
+                statement(s);
+            }
