@@ -218,11 +218,21 @@
 
 ## **Arrays**
     Arrays is a group of homogeneous data in one single variable and it is called by using index position
-        - index position starts with 0.
+        -index position starts with 0.
+        -one Dimentional Array
+        -multi Dimentional Array
     
     Array Declaration: - 
         syntax: -
             ArrayType[] VariableName = ArrayValue[]
 
-        -one Dimentional Array
+        for multiDimentional Array
+            ArrayType[][] VaribleName = {{ArrayValue1}, {Arrayvalue2}}
 
+### **Array length**
+    to finding the length of the array use "length" element in array
+        -"length" is not a method in arrays
+
+    syntax: -
+        Arraytype[] variable = {car1, car2, car3, car4, car5}
+        int Arraylength = variable.length; 
