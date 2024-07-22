@@ -248,3 +248,25 @@
 
         public static void method(arg1, arg2);
 
+        - static means belongs to main method not a object of main method
+        - void means null, it doesn't return any value
+        
+### **Accessing Methods**
+
+    Inside and outside of "main" method
+        syntax: -
+            myMethod();
+            myMethod(arg1, arg2);
+
+    outside of main class in a same file 
+        syntax: -
+            className.myMethod();
+            className.myMethod(arg1, arg2);
+    
+    other package
+        syntax: -
+            -import package;
+            -create obj for that class 
+            -access objName.method();
+    
+
