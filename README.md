@@ -236,3 +236,15 @@
     syntax: -
         Arraytype[] variable = {car1, car2, car3, car4, car5}
         int Arraylength = variable.length; 
+
+
+## **Methods**
+    Method is a block of code, and only runs when its called
+    - code resusability
+    
+### **Creating method**
+    syntax: -
+        AccessSpecifier AccessModifier returnType methodName(parameter1, parameter2);
+
+        public static void method(arg1, arg2);
+
